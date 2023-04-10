@@ -1,0 +1,76 @@
+/* Write your CSS code here. */
+.app-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.feedback-container {
+  background-color: #ffffff;
+  max-width: 500px;
+
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid white;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+.emojis-container {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 40px;
+}
+.heading {
+  font-size: 32px;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 35px;
+    color: #0f172a;
+  }
+  .feedback-container {
+    background-color: #ffffff;
+    max-width: 700px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .emoji {
+    width: 70px;
+    height: 70px;
+  }
+  .thank-you {
+    font-size: 35px;
+    color: #0f172a;
+  }
+  .description {
+    color: #1e293b;
+    font-size: 15px;
+    font-weight: 300;
+  }
+}
+.emoji {
+  width: 90px;
+  height: 90px;
+}
+.thank-you {
+  font-size: 45px;
+  color: #0f172a;
+}
+.description {
+  color: #1e293b;
+  font-size: 30px;
+  font-weight: 300;
+}
